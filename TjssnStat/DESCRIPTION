@@ -1,0 +1,27 @@
+Package: TjssnStat
+Title: TjssnStat: Data Preprocessing and Statistical Analysis Tool
+Version: 0.0.2
+Authors@R: 
+    person("TjssnStat", "Dev Team", , "tongjibbb@163.com", role = c("aut", "cre"))
+Description: Provides data preprocessing, variable type identification, and statistical result export functions. It is compatible with various operating systems, supports Excel interaction and visual diagnosis, and is suitable for data analysis in fields such as medicine, sociology, and mathematics.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports: 
+    dplyr,
+    flextable,
+    janitor,
+    jsonlite,
+    kableExtra,
+    knitr,
+    moments,
+    officer,
+    openxlsx,
+    readxl,
+    skimr,
+    stats
+Depends: 
+    httr,
+    R (>= 4.0.0),
+    tidyverse
